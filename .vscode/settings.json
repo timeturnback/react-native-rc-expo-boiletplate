@@ -1,0 +1,5 @@
+{
+  "path-autocomplete.pathMappings": {
+    "@app": "${workspace}/App" // alias similar to defined in .babelrc
+  }
+}
