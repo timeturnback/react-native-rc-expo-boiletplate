@@ -10,12 +10,13 @@ const ApplicationStyles = {
     backgroundColor: Colors.gray2
   },
   //
-  simpleItemBorder: {
-    borderRadius: Metrics.borderRadius,
-    borderWidth: 1,
-    padding: Metrics.baseMargin,
-    borderColor: Colors.gray2
+  errorText: {
+    fontFamily: Fonts.type.base,
+    fontSize: Fonts.size.medium,
+    textAlign: "center",
+    color: Colors.error
   },
+  //
   shadow5: {
     shadowColor: Colors.blackColor,
     shadowOpacity: 0.5,
