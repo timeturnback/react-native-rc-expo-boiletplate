@@ -28,20 +28,6 @@
 - [`babel.config.js`](#babel.config.js)
 - [`jsconfig.json`](#jsconfig.json)
 - [`package.json`](#package.json)
-- [`onValueChange`](#onvaluechange)
-- [`step`](#step)
-- [`maximumTrackTintColor`](#maximumtracktintcolor)
-- [`testID`](#testid)
-- [`value`](#value)
-- [`inverted`](#inverted)
-- [`tapToSeek`](#tapToSeek)
-- [`vertical`](#vertical)
-- [`thumbTintColor`](#thumbtintcolor)
-- [`maximumTrackImage`](#maximumtrackimage)
-- [`minimumTrackImage`](#minimumtrackimage)
-- [`thumbImage`](#thumbimage)
-- [`trackImage`](#trackimage)
-- [`ref`](#ref)
 
 ---
 
