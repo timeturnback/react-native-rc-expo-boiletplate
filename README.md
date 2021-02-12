@@ -231,3 +231,14 @@ You can import the newest one of those package with this script , but I suggest 
 | reactotron-redux-saga                 |         |
 
 ---
+
+## Maintainers
+
+- [Long Tran](https://github.com/timeturnback)
+
+## Contributors
+
+This module was extracted from `react-native` core. Please, refer to https://github.com/react-native-community/react-native-slider/graphs/contributors for the complete list of contributors.
+
+## License
+The library is released under the MIT licence. For more information see `LICENSE`.
