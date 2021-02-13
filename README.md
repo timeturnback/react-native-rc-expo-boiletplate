@@ -1,6 +1,6 @@
-# A well done template for expo
+# A well done boiletplate for expo
 
-#### react-native-rc-expo-template
+#### react-native-rc-expo-boiletplate
 
 ## How to use
 
