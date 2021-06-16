@@ -1,14 +1,13 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "build_ios": "expo build:ios --release-channel testflight",
-    "publish": "expo publish --release-channel testflight",
-    "publish_testflight": "expo publish --release-channel testflight",
-    "publish_production": "expo publish",
-    "build_ios_production": "expo build:ios"
+    "start": "yarn; expo start",
+    "android": "yarn; expo start --android",
+    "ios": "yarn; expo start --ios",
+    "build_ios": "yarn; expo build:ios --release-channel testflight",
+    "publish": "yarn; expo publish --release-channel testflight",
+    "publish_production": "yarn; expo publish --release-channel production",
+    "build_ios_production": "yarn; expo build:ios --release-channel production"
   },
   "dependencies": {
     "@react-native-community/async-storage": "~1.12.0",
@@ -17,6 +16,7 @@
     "expo": "~40.0.0",
     "expo-app-loading": "^1.0.1",
     "expo-status-bar": "~1.0.3",
+    "expo-updates": "~0.4.1",
     "i18n-js": "^3.8.0",
     "moment": "^2.29.1",
     "react": "16.13.1",

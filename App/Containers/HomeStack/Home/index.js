@@ -9,6 +9,7 @@ import SimpleBottomButton from "@app/Components/SimpleBottomButton";
 //
 import { Colors, Fonts } from "@app/Themes";
 import { STR } from "@app/i18n/string";
+import CheckUpdateButton from "@app/Components/CheckUpdateButton";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
           NavigationService.navigate(ROUTE_NAME.COMPONENT_LIST_PAGE);
         }}
       />
+      <CheckUpdateButton />
     </View>
   );
 };
