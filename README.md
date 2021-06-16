@@ -146,7 +146,7 @@ Setting for using @app static directory
 You can import the newest one of those package with this script , but I suggest you copy the one on the package.json
 
 ```
- expo install @react-native-community/async-storage expo-app-loading expo-status-bar i18n-js moment react-native-modal react-native-size-matters react-navigation react-navigation-stack react-native-gesture-handler react-native-reanimated @react-native-community/masked-view react-native-screens react-redux redux redux-persist redux-saga reduxsauce seamless-immutable
+ expo install @react-native-async-storage/async-storage expo-app-loading expo-status-bar i18n-js moment react-native-modal react-native-size-matters react-navigation react-navigation-stack react-native-gesture-handler react-native-reanimated @react-native-community/masked-view react-native-screens react-redux redux redux-persist redux-saga reduxsauce seamless-immutable
 ```
 
 ```
@@ -155,7 +155,7 @@ You can import the newest one of those package with this script , but I suggest 
 
 | Package                                 | Purpose                                                            |
 | --------------------------------------- | ------------------------------------------------------------------ |
-| @react-native-community/async-storage   | For using async-storage , require for redux persist                |
+| @react-native-async-storage/async-storage   | For using async-storage , require for redux persist                |
 | expo-app-loading                        | Apploading                                                         |
 | expo-status-bar                         | Status bas                                                         |
 | i18n-js                                 | For international                                                  |

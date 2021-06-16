@@ -1,5 +1,5 @@
 import ReduxPersist from "../Config/ReduxPersist";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { persistStore } from "redux-persist";
 //
 import DebugConfig from "../Config/DebugConfig";
