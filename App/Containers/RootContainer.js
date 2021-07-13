@@ -8,7 +8,6 @@ import {
 } from "react-native";
 //
 import HomeStack from "../Navigation/AppNavigation";
-import NavigationService from "@app/Navigation/NavigationService";
 //
 import { useSelector } from "react-redux";
 import { AppRedux } from "../ReduxSaga/reducers";
@@ -29,11 +28,7 @@ const RootContainer = () => {
     <View style={styles.container}>
       <SafeAreaView style={styles.applicationView}>
         {/* <StatusBar barStyle="light-content" /> */}
-        <HomeStack
-          ref={(navigatorRef) => {
-            NavigationService.setTopLevelNavigator(navigatorRef);
-          }}
-        />
+        <HomeStack />
       </SafeAreaView>
       {TEST_MODE_ON ? (
         <Text style={styles.versionText}>{DEV_VERSION}</Text>

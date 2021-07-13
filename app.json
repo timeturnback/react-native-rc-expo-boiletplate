@@ -17,7 +17,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "5",
+      "bundleIdentifier": "expo.rc.template",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier will be used to collect crash data"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -27,6 +32,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-tracking-transparency"
+    ]
   }
 }
