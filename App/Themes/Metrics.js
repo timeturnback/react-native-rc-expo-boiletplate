@@ -15,6 +15,7 @@ const metrics = {
   //
   radius: {
     item: moderateScale(8),
+    base: moderateScale(8),
     medium: moderateScale(16),
     large: moderateScale(24)
   },
