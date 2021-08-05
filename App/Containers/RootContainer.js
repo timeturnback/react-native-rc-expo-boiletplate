@@ -7,7 +7,7 @@ import {
   Text
 } from "react-native";
 //
-import HomeStack from "../Navigation/AppNavigation";
+import RootStack from "../Navigation/AppNavigation";
 //
 import { useSelector } from "react-redux";
 import { AppRedux } from "../ReduxSaga/reducers";
@@ -28,7 +28,7 @@ const RootContainer = () => {
     <View style={styles.container}>
       <SafeAreaView style={styles.applicationView}>
         {/* <StatusBar barStyle="light-content" /> */}
-        <HomeStack />
+        <RootStack />
       </SafeAreaView>
       {TEST_MODE_ON ? (
         <Text style={styles.versionText}>{DEV_VERSION}</Text>

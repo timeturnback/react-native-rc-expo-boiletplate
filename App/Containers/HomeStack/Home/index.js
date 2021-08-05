@@ -9,19 +9,19 @@ import SimpleBottomButton from "@app/Components/SimpleBottomButton";
 //
 import { Colors, Fonts } from "@app/Themes";
 import { STR } from "@app/i18n/string";
-import CheckUpdateButton from "@app/Components/CheckUpdateButton";
 
 const Home = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{t(STR.home).toUpperCase()}</Text>
       <SimpleBottomButton
-        title={t(STR.componentListPage)}
+        title={"Detail page"}
         onPress={() => {
-          NavigationService.navigate(ROUTE_NAME.COMPONENT_LIST_PAGE);
+          NavigationService.navigate(ROUTE_NAME.DETAIL_PAGE, {
+            lastPage: "Home"
+          });
         }}
       />
-      <CheckUpdateButton />
     </View>
   );
 };
